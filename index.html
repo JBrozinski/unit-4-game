@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Crystal Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1 id="message">Click a crystal to play!</h1>
+    <h1>Number to Guess: <span id="number-to-guess">_</span></h1>
+    <h1>Current Score: <span id="current-score">0</span></h1>
+    <div>Wins: <span id="wins">0</span></div>
+    <div>Losses: <span id="losses">0</span></div>
+    <div id="crystals"></div>
+
+    <!-- add jquery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <!-- set up variables for targetNumber and counter and numberOptions. -->
+    <script src="./assets/javascript/crystals.js"></script>
+    <script src="./assets/javascript/app.js"></script>
+  </body>
+</html>
