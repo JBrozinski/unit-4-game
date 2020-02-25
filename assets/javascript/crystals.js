@@ -1,18 +1,18 @@
 var crystals = [
     {
       img:
-        "http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+      "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642"
     },
     {
       img:
-        "http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+        "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/10/Arena_Crystal.png/revision/latest?cb=20150825214845"
     },
     {
       img:
-        "http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+        "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/6/6b/Versus_Crystal.png/revision/latest?cb=20150825214827"
     },
     {
       img:
-        "http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+        "https://www.aomdb.com/wp-content/uploads/resources/arena-crystals-of-power.png"
     }
   ];
