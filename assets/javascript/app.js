@@ -39,6 +39,7 @@ function startGame() {
   // create a for loop to create crystals for every numberOption.
   for (var i = 0; i < crystals.length; i++) {
     var imageCrystal = $("<img>");
+    
     imageCrystal.addClass("crystal-image");
     imageCrystal.attr("src", crystals[i].img);
     imageCrystal.attr("data-crystalvalue", getRandomNumber(12));
@@ -53,6 +54,7 @@ function crystalClick() {
   crystalValue = parseInt(crystalValue);
   counter += crystalValue;
   currentScoreEl.text(counter);
+  
 
   if (counter === targetNumber) {
     messageEl.text("You win!");
@@ -65,7 +67,7 @@ function crystalClick() {
     messageEl.text("You lose!!");
     losses++;
     lossesEl.text(losses);
-    document.getElementById("crystal-image").innerHTML = "";
+    
     startGame();
   }
 }
