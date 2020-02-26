@@ -21,9 +21,11 @@ startGame();
 // generate random number
 
 function getRandomNumber(val) {
+  return Math.floor(Math.random() * val) + 20;
+}
+function getRandomNumberCr(val) {
   return Math.floor(Math.random() * val) + 1;
 }
-
 // start function
 function startGame() {
   
@@ -31,7 +33,7 @@ function startGame() {
   currentScoreEl.text(counter);
 
   // need to randomize!!!
-  targetNumber = getRandomNumber(50);
+  targetNumber = getRandomNumber(101);
   numToGuessEl.text(targetNumber);  
 
 
@@ -45,7 +47,7 @@ function startGame() {
 
     imageCrystal.addClass("crystal-image");
     imageCrystal.attr("src", crystals[i].img);
-    imageCrystal.attr("data-crystalvalue", getRandomNumber(12));
+    imageCrystal.attr("data-crystalvalue", getRandomNumberCr(12));
     imageCrystal.on("click", crystalClick);
     crystalsEl.append(imageCrystal);
   }
