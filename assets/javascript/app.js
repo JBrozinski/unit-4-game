@@ -18,11 +18,13 @@ startGame();
 
 // build functions
 
-// generate random number
+// generate random number for Number to Guess
 
 function getRandomNumber(val) {
   return Math.floor(Math.random() * val) + 20;
 }
+
+// generate random number for Crystals
 function getRandomNumberCr(val) {
   return Math.floor(Math.random() * val) + 1;
 }
@@ -76,6 +78,8 @@ function crystalClick() {
     
   }
 }
+
+// make a function that clears out the crystals between rouonds so new ones can be genereated with new numbers without filling the page with 8, 12,16 etc Crystals
 function clearCrystals () {
   document.getElementById("crystals").innerHTML = "";
 }
