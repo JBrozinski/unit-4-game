@@ -13,6 +13,6 @@ var crystals = [
     },
     {
       img:
-      "https://image.flaticon.com/icons/png/512/771/771215.png"
+      "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/6/6b/Versus_Crystal.png/revision/latest?cb=20150825214827"
     }
   ];
