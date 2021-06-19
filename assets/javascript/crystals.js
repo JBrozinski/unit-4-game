@@ -13,6 +13,6 @@ var crystals = [
     },
     {
       img:
-        "https://www.aomdb.com/wp-content/uploads/resources/arena-crystals-of-power.png"
+      "https://image.flaticon.com/icons/png/512/771/771215.png"
     }
   ];
